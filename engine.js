@@ -52,7 +52,6 @@ var Game = new function() {
     SpriteSheet.load(sprite_data,callback);
   };
 
-
   // Handle Input
   var KEY_CODES = { 37:'left', 39:'right', 32 :'fire' };
   this.keys = {};
